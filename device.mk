@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy.conf:system/etc/audio_policy.conf
 
 # Boot animation
-TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
