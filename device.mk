@@ -166,8 +166,8 @@ PRODUCT_PACKAGES += \
     init.power.rc 
 
 # Samsung Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
+#PRODUCT_PACKAGES += \
+#    SamsungDoze
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
@@ -221,7 +221,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.less-secure=true
 
 # call dalvik heap and hwui config
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+#$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # call Samsung LSI board support package
